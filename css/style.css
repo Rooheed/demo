@@ -180,7 +180,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   margin-top: -20vh; }
 
-.story__pictures {
+.story-1__picture-1 {
   background-color: #ebebeb;
   display: grid;
   grid-template-rows: repeat(6, 1fr);
@@ -190,31 +190,15 @@ body {
   align-items: center;
   background-size: cover; }
   @media only screen and (max-width: 56.25em) {
-    .story__pictures {
+    .story-1__picture-1 {
       grid-column: 1 / -1;
       padding: 6rem;
       background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 136, 19, 0.5)), to(rgba(247, 136, 19, 0.5))), url(../img/back.jpg);
       background-image: linear-gradient(rgba(247, 136, 19, 0.5), rgba(247, 136, 19, 0.5)), url(../img/back.jpg);
-      z-index: 20; } }
+      z-index: 20;
+      margin-top: -10%; } }
 
-.story__picture {
-  background-color: #ebebeb;
-  display: grid;
-  grid-template-rows: repeat(6, 1fr);
-  grid-template-columns: repeat(6, 1fr);
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-size: cover; }
-  @media only screen and (max-width: 56.25em) {
-    .story__picture {
-      grid-column: 1 / -1;
-      padding: 6rem;
-      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 136, 19, 0.5)), to(rgba(247, 136, 19, 0.5))), url(../img/marketing.jpg);
-      background-image: linear-gradient(rgba(247, 136, 19, 0.5), rgba(247, 136, 19, 0.5)), url(../img/marketing.jpg);
-      z-index: 20; } }
-
-.story__img--1 {
+.story-1__img--1 {
   width: 100%;
   grid-row: 2 / 6;
   grid-column: 2 / 6;
@@ -224,7 +208,7 @@ body {
   -webkit-transition: all .2s;
   transition: all .2s;
   outline-offset: 2rem; }
-  .story__img--1:hover {
+  .story-1__img--1:hover {
     outline: 1.5rem solid #f78813;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
@@ -232,11 +216,11 @@ body {
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
     z-index: 20; }
   @media only screen and (max-width: 56.25em) {
-    .story__img--1 {
+    .story-1__img--1 {
       grid-column: 1/5;
       grid-row: 1/-1; } }
 
-.story__img--2 {
+.story-1__img--2 {
   width: 115%;
   grid-row: 4 / 6;
   grid-column: 4 / 7;
@@ -245,46 +229,11 @@ body {
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
   opacity: .7; }
   @media only screen and (max-width: 56.25em) {
-    .story__img--2 {
+    .story-1__img--2 {
       grid-row: 1 / -1;
       width: 100%; } }
 
-.story__img--3 {
-  width: 115%;
-  grid-row: 4 / 6;
-  grid-column: 4 / -7;
-  z-index: 20;
-  -webkit-box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
-  opacity: .7; }
-  @media only screen and (max-width: 56.25em) {
-    .story__img--3 {
-      grid-row: 1 / -1;
-      width: 100%; } }
-
-.story__img--4 {
-  width: 100%;
-  grid-row: 2 / 6;
-  grid-column: 2 / 6;
-  -webkit-box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
-  z-index: 10;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-  outline-offset: 2rem; }
-  .story__img--4:hover {
-    outline: 1.5rem solid #f78813;
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-    -webkit-box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
-    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
-    z-index: 20; }
-  @media only screen and (max-width: 56.25em) {
-    .story__img--4 {
-      grid-column: 7/-5;
-      grid-row: -1/1; } }
-
-.story__content {
+.story-1__content-1 {
   background-color: #ebebeb;
   padding: 6rem 8vw;
   display: grid;
@@ -292,11 +241,11 @@ body {
   align-content: center;
   justify-items: start; }
   @media only screen and (max-width: 56.25em) {
-    .story__content {
+    .story-1__content-1 {
       grid-column: 1 / -1;
       grid-row: 1 / 6; } }
 
-.story__text {
+.story-1__text-1 {
   font-size: 1.5rem;
   color: #000;
   margin-bottom: 4rem; }
@@ -306,6 +255,76 @@ body {
   grid-template-rows: 110vh;
   grid-template-columns: repeat(2, 1fr);
   margin-top: -10rem; }
+
+.story-2__picture-2 {
+  background-color: #ebebeb;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-size: cover; }
+  @media only screen and (max-width: 56.25em) {
+    .story-2__picture-2 {
+      grid-column: 1 / -1;
+      padding: 6rem;
+      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 136, 19, 0.5)), to(rgba(247, 136, 19, 0.5))), url(../img/marketing.jpg);
+      background-image: linear-gradient(rgba(247, 136, 19, 0.5), rgba(247, 136, 19, 0.5)), url(../img/marketing.jpg);
+      z-index: 20;
+      margin-top: -10%; } }
+
+.story-2__img--3 {
+  width: 115%;
+  grid-row: 4 / 6;
+  grid-column: 4 / -7;
+  z-index: 20;
+  -webkit-box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+  opacity: .7; }
+  @media only screen and (max-width: 56.25em) {
+    .story-2__img--3 {
+      grid-row: 1 / -1;
+      width: 100%; } }
+
+.story-2__img--4 {
+  width: 100%;
+  grid-row: 2 / 6;
+  grid-column: 2 / 6;
+  -webkit-box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  outline-offset: 2rem; }
+  .story-2__img--4:hover {
+    outline: 1.5rem solid #f78813;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+    z-index: 20; }
+  @media only screen and (max-width: 56.25em) {
+    .story-2__img--4 {
+      grid-column: 7/-5;
+      grid-row: -1/1; } }
+
+.story-2__content-2 {
+  background-color: #ebebeb;
+  padding: 6rem 8vw;
+  display: grid;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  justify-items: start; }
+  @media only screen and (max-width: 56.25em) {
+    .story-2__content-2 {
+      grid-column: 1 / -1;
+      grid-row: 1 / 6; } }
+
+.story-2__text-2 {
+  font-size: 1.5rem;
+  color: #000;
+  margin-bottom: 4rem; }
 
 .header {
   height: 85vh;
