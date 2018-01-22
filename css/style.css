@@ -196,7 +196,7 @@ body {
       background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 136, 19, 0.5)), to(rgba(247, 136, 19, 0.5))), url(../img/back.jpg);
       background-image: linear-gradient(rgba(247, 136, 19, 0.5), rgba(247, 136, 19, 0.5)), url(../img/back.jpg);
       z-index: 20;
-      margin-top: -10%; } }
+      margin-top: -25%; } }
 
 .story-1__img--1 {
   width: 100%;
@@ -272,7 +272,7 @@ body {
       background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 136, 19, 0.5)), to(rgba(247, 136, 19, 0.5))), url(../img/marketing.jpg);
       background-image: linear-gradient(rgba(247, 136, 19, 0.5), rgba(247, 136, 19, 0.5)), url(../img/marketing.jpg);
       z-index: 20;
-      margin-top: -10%; } }
+      margin-top: -25%; } }
 
 .story-2__img--3 {
   width: 115%;
