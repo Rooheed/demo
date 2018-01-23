@@ -188,7 +188,8 @@ body {
   margin-top: -20vh; }
   @media only screen and (max-width: 37.5em) {
     .story-1 {
-      flex-direction: column; } }
+      flex-direction: column;
+      padding: 15rem 0 0 0; } }
   .story-1__picture-1 {
     flex: 1;
     background-color: #ebebeb;
@@ -223,8 +224,7 @@ body {
   background-color: #ebebeb; }
   @media only screen and (max-width: 37.5em) {
     .story-2 {
-      flex-direction: column;
-      padding: 0; } }
+      flex-direction: column; } }
   .story-2__picture-2 {
     flex: 1;
     background-color: #ebebeb;
