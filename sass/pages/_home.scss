@@ -114,7 +114,7 @@ margin-top: -20vh;
         margin: 0 4rem;
 
         @include respond(phone) {
-            margin: 0 2rem;
+            margin: 0 2.2rem;
             padding-bottom: 2rem;
           }
           @include respond(tab-port) {
