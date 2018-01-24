@@ -189,7 +189,8 @@ body {
   @media only screen and (max-width: 37.5em) {
     .story-1 {
       flex-direction: column;
-      padding: 15rem 0 0 0; } }
+      padding: 0;
+      margin-top: -30vh; } }
   @media only screen and (max-width: 56.25em) {
     .story-1 {
       padding: 25rem 0 10rem 0; } }
@@ -266,7 +267,7 @@ body {
     margin: 0 4rem; }
     @media only screen and (max-width: 37.5em) {
       .story-2__content-2 {
-        margin: 0 1.8rem;
+        margin: 0 2rem;
         padding-bottom: 2rem; } }
   .story-2__text-2 {
     font-size: 1.5rem;
