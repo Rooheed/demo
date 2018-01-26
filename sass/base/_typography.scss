@@ -87,7 +87,63 @@ body {
 		width: 100%;
 		margin-bottom: 1rem;
 	 } 
+}
+
+.heading-5 {
+	font-size: 2rem;
+	letter-spacing: .5rem;
+	text-transform: uppercase;
+	color: $color-white;
+	padding: 4rem;
+	background-color: $color-tertiary;
+	width: 50%;
+	text-align: center;
+	margin-top: -6rem;
+	opacity: .7;
+
+	@include respond(phone) {
+		font-size: 2rem;
+		width: 100%;
+	  }
+	  
+	  @include respond(tab-port) {
+		font-size: 2rem;
+		width: 100%;
+      }
+}
+
+.heading-6 {
+	font-size: 2.5rem;
+	padding: 2rem;
+	margin-bottom: 3.5rem;
+	text-align: center;
+	text-transform: uppercase;
+	color: $color-primary;
 	
+	@include respond(phone) {
+		padding: 1rem;
+		margin-top: -3rem;
+		margin-bottom: 0;
+	  }
+}
+
+.paragraph {
+	margin: 3rem 0;
+	padding: 1rem 0;
+	list-style: none;
+	border-bottom:$line;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	&__para {
+		flex: 0 0 50%;
+		margin-bottom: .7rem;
+		flex-basis: 49%;
+		font-size: 1.3rem;
+		
+		
+	}
 }
 
 

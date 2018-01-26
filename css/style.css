@@ -115,6 +115,53 @@ body {
       width: 100%;
       margin-bottom: 1rem; } }
 
+.heading-5 {
+  font-size: 2rem;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 4rem;
+  background-color: #003366;
+  width: 50%;
+  text-align: center;
+  margin-top: -6rem;
+  opacity: .7; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-5 {
+      font-size: 2rem;
+      width: 100%; } }
+  @media only screen and (max-width: 56.25em) {
+    .heading-5 {
+      font-size: 2rem;
+      width: 100%; } }
+
+.heading-6 {
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin-bottom: 3.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f78813; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-6 {
+      padding: 1rem;
+      margin-top: -3rem;
+      margin-bottom: 0; } }
+
+.paragraph {
+  margin: 3rem 0;
+  padding: 1rem 0;
+  list-style: none;
+  border-bottom: 1px solid #c2690b;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .paragraph__para {
+    flex: 0 0 50%;
+    margin-bottom: .7rem;
+    flex-basis: 49%;
+    font-size: 1.3rem; }
+
 .mb-sm {
   margin-bottom: 2rem; }
 
@@ -201,7 +248,7 @@ body {
 
 .story-1 {
   display: flex;
-  padding: 15rem 0 10rem 0;
+  padding: 15rem 0 2rem 0;
   background-color: #ebebeb;
   margin-top: -20vh; }
   @media only screen and (max-width: 37.5em) {
@@ -304,7 +351,8 @@ body {
     box-sizing: border-box;
     flex-basis: 30%;
     padding: 15rem 0;
-    margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+    transition: all .2s; }
     .featured-works__customer:hover {
       transform: scale(1.05);
       box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
@@ -318,6 +366,109 @@ body {
   .featured-works__customer:nth-child(3) {
     background-image: linear-gradient(rgba(247, 136, 19, 0.5), rgba(247, 136, 19, 0.5)), url(../img/cars.png);
     text-align: center; }
+
+.choose {
+  display: flex;
+  display: flex;
+  padding-top: 2rem; }
+  @media only screen and (max-width: 37.5em) {
+    .choose {
+      flex-direction: column; } }
+
+.choose-us {
+  padding: 2rem;
+  flex: 0 0 70%;
+  background-color: #ebebeb; }
+  .choose-us__img--3 {
+    width: 100%; }
+
+.partiners {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebebeb; }
+
+.company-partner {
+  padding: 0 2rem;
+  margin-bottom: 3.5rem; }
+  @media only screen and (max-width: 37.5em) {
+    .company-partner {
+      padding: 2rem;
+      margin-bottom: 1rem; } }
+  .company-partner__part {
+    display: flex;
+    align-items: center; }
+  .company-partner__co-logo {
+    height: auto;
+    width: 50%;
+    margin-right: 1.5rem;
+    transition: all .2s; }
+    @media only screen and (max-width: 37.5em) {
+      .company-partner__co-logo {
+        width: 50%;
+        height: auto;
+        margin-left: -0.5rem; } }
+    .company-partner__co-logo:hover {
+      transform: scale(1.05);
+      box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2); }
+
+.blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 4rem;
+  margin-left: 15rem; }
+  .blog__image {
+    height: 24vw; }
+  .blog__image img {
+    width: 20vw; }
+  .blog__content {
+    width: 100%;
+    color: #fff;
+    padding: 4vw 18vw 3vw 9vw; }
+  .blog__date {
+    color: #f78813;
+    font-size: 1.1vw;
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    padding-bottom: 1.4vw; }
+  .blog__title {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    line-height: 1.55vw;
+    padding-bottom: 1.8vw;
+    color: black; }
+  .blog__text {
+    font-size: 1.2rem;
+    padding-bottom: 4vw;
+    color: black; }
+
+.arrows {
+  width: 3.5vw;
+  margin-top: -5.8vw;
+  margin-left: 72vw; }
+
+.arrow {
+  display: inline-block;
+  width: 1.2vw;
+  height: 1.2vw;
+  border-top: 0.15vw solid black;
+  border-left: 0.15vw solid black;
+  transition: all .1s ease-in-out; }
+
+.arrow:hover {
+  border-color: #f78813;
+  border-width: 0.25vw; }
+
+.arrow.prev {
+  transform: rotate(-45deg);
+  left: 0; }
+
+.arrow.next {
+  transform: rotate(135deg);
+  right: 0; }
 
 .header {
   height: 85vh;
@@ -609,8 +760,7 @@ body {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .btn-text-more {
-  text-align: center !important;
-  margin-top: 3rem !important; }
+  text-align: center !important; }
 
 .btn-text:link, .btn-text:visited {
   font-size: 2.5rem;
